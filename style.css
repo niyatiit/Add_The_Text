@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    background-color: #65233f;
+    color:white;
+}
+p{
+    padding:15px;
+    /* text-align: center; */
+    font-size: 2.2vw;
+
+
+}
+input{
+    position: relative;
+    left:30px;
+    font-size:1.8vw;
+    padding: 5px;
+    width:25vw;
+}
+button{
+    margin-top:15px;
+    margin-left:25px;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    width:10vw;
+}
+button:hover{
+    cursor: pointer;
+    color:rgb(124, 118, 118);
+}
+h3{
+    position: relative;
+    top:10px;
+    font-size: 1.5vw;
+    left:15px;
+}
